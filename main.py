@@ -98,8 +98,8 @@ b = c
 
 # exercise 13
 
-first_name = input("First name")
-last_name = input("Last name")
+first_name = input("First name: ")
+last_name = input("Last name: ")
 age = input("Age: ")
 educational_institution = input("Educational institution: ")
 course_name = input("Course name: ")
@@ -122,7 +122,7 @@ Monthly Price: {monthly_price}
 Total Course Price: {monthly_price * study_months}
 
 ================================
-Registration completed!
+    Registration completed!
 ================================
 
 """)
