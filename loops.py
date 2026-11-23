@@ -135,7 +135,7 @@ number = int(input("Number: "))
 count = 2
 prime = True
 for i in range(2,number**0.5):
-    if number % i == 0:
+    if number % i == 0 and number != i:
         print("\nNot a prime number\n")
         prime = False
         break
