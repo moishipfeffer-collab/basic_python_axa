@@ -15,6 +15,7 @@ print(names)
 #exercise 3
 grades = [89,90,98,100,98]
 grades.append(89)
+grades.insert(100)
 grades[2] = 68
 print(grades)
 
